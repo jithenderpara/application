@@ -1,0 +1,90 @@
+.container {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+.leftWrapper {
+    width: 80%;
+    float: left;
+}
+
+.RightWrapper {
+    width: 20%;
+    float: left;
+}
+
+.books>li {
+    float: left;
+    border: 1px solid #ecebeb;
+    width: 47%;
+    height: 170px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 2px;
+    list-style-type: none;
+    cursor: pointer
+}
+
+.books>li.is-selected {
+    background: #f5f5f5;
+}
+
+.books>li img {
+    border: 0 solid #eaeaea;
+}
+
+.bookcover {
+    height: 100%;
+    float: left;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.authers {
+    padding: 0 10px;
+    width: 64%;
+    margin-left: 21%;
+    overflow: hidden;
+}
+
+.authers strong {
+    margin-right: 10px;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.subtitle {
+    font-style: italic;
+    color: #7b7979;
+    font-size: 12px;
+}
+
+.authers ul {
+    margin: 0;
+    font-size: 13px;
+    color: #232020;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+.overFlow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.authers ul li {
+    list-style-type: none;
+    margin-right: 8px;
+}
+
+.pageinfo {
+    /* float: left;
+    display: block; */
+}
